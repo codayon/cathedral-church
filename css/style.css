@@ -1,4 +1,4 @@
-/* common styling */
+/* All Common CSS Start  */
 * {
   margin: 0;
   padding: 0;
@@ -25,53 +25,57 @@ p {
   width: 1320px;
   margin: 0 auto;
 }
-/* header */
-#header {
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 0;
-  position: fixed;
+/* All Common CSS End */
+
+/* Header Part Start  */
+#headerPart {
   background: rgba(0, 0, 0, 0.5);
+  padding: 50px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 .navbar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-between;
 }
-.menu {
-  display: flex;
-  justify-content: space-between;
-}
+
 .menu ul li {
   display: inline-block;
 }
 .menu ul li a {
-  color: white;
+  color: #fff;
   font-size: 14px;
+  font-family: "Source Sans 3", serif;
+  text-transform: uppercase;
   padding: 0 15px;
   transition: 0.4s;
-  text-transform: uppercase;
-  font-family: "Source Sans 3", serif;
 }
 .menu ul li a:hover {
   color: #e4b855;
 }
+
 .search a {
-  color: white;
-  font-size: 14px;
-  transition: 0.4s;
   padding: 10px 60px;
-  border-radius: 20px;
   background: #e4b855;
-  text-transform: uppercase;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
   font-family: "Source Sans 3", serif;
+  text-transform: uppercase;
+  transition: 0.4s;
 }
 .search a:hover {
+  background: #e6e6e6;
   color: black;
-  background: rgb(230, 230, 230);
 }
 .search i {
+  color: #fff;
   font-size: 20px;
-  color: white;
+  margin-left: 10px;
 }
+/* Header Part End */
+
+/* Banner Part Start  */
