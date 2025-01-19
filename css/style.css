@@ -114,16 +114,16 @@ li {
   display: flex;
 }
 .slide img {
-  height: 615px;
+  /* padding: 615px auto; */
+  height: 100%;
   left: 0;
   top: 0;
 }
 .text h1 {
   font-size: 45px;
-  display: inline-block;
   text-align: center;
-  margin: 30px 191px 0;
   color: black;
+  margin-top: 50px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -133,7 +133,6 @@ li {
   font-size: 25px;
   color: grey;
   margin: 0 191px;
-  /* margin-top: 25px; */
   text-align: center;
   font-style: normal;
   font-optical-sizing: auto;
@@ -166,9 +165,7 @@ li {
 }
 .texts h1 {
   font-size: 45px;
-  display: inline-block;
   text-align: center;
-  margin: 0px 50px;
   color: white;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -187,49 +184,37 @@ li {
 }
 .boxes {
   display: flex;
-  justify-content: space-around;
-  margin: 50px auto;
-  text-align: center;
-  text-transform: uppercase;
-  font-style: normal;
-  font-optical-sizing: auto;
-  font-family: "Source Sans 3", serif;
+  font-size: 80px;
   font-weight: 700;
-  font-size: 30px;
+  margin: 50px auto;
+  font-style: normal;
+  text-transform: uppercase;
+  font-optical-sizing: auto;
+  justify-content: space-around;
+  font-family: "Source Sans 3", serif;
 }
-.a {
-  height: 250px;
-  width: 250px;
-  transition: 0.5s;
-  background: grey;
-}
-.a:hover {
-  background: teal;
-}
-.b {
-  transition: 0.5s;
-  height: 250px;
-  width: 250px;
-  background: grey;
-}
-.b:hover {
-  background: teal;
-}
-.c {
-  transition: 0.5s;
-  height: 250px;
-  width: 250px;
-  background: grey;
-}
-.c:hover {
-  background: teal;
-}
+.a,
+.b,
+.c,
 .d {
-  transition: 0.5s;
   height: 250px;
   width: 250px;
-  background: grey;
+  color: darkolivegreen;
+  background: rgb(211, 203, 203);
 }
+.a i,
+.b i,
+.c i,
+.d i {
+  margin-left: 125px;
+  margin-top: 125px;
+  transform: translate(-50%, -50%);
+}
+.a:hover,
+.b:hover,
+.c:hover,
 .d:hover {
+  color: white;
+  transition: 0.7s;
   background: teal;
 }
