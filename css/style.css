@@ -8,11 +8,6 @@ a {
 li {
   list-style: none;
 }
-h1,
-h5,
-p {
-  line-height: 0;
-}
 .container {
   margin: 0 auto;
   width: 1320px;
@@ -26,6 +21,8 @@ p {
 .navbar {
   display: flex;
   padding: 45px 0;
+  align-items: center;
+
   justify-content: space-between;
 }
 
@@ -36,6 +33,7 @@ p {
 .menu ul {
   justify-content: space-between;
   text-align: center;
+  align-items: center;
 }
 .menu ul li {
   display: inline-block;
@@ -46,7 +44,9 @@ p {
   font-size: 20px;
   padding: 0 15px;
   font-style: normal;
+
   font-optical-sizing: auto;
+  font-weight: 700;
   font-family: "Source Sans 3", serif;
   text-transform: uppercase;
 }
@@ -56,7 +56,7 @@ p {
 .button a {
   color: white;
   font-size: 20px;
-  background: yellowgreen;
+  background: saddlebrown;
   padding: 10px;
   margin: 0 20px;
   border-radius: 10px;
@@ -64,11 +64,13 @@ p {
   font-style: normal;
   font-optical-sizing: auto;
   font-family: "Source Sans 3", serif;
+  font-weight: 700;
+
   transition: 0.5s;
 }
 .button a:hover {
   color: black;
-  background: yellow;
+  background: yellowgreen;
 }
 .search a i {
   font-size: 20px;
@@ -77,18 +79,34 @@ p {
   transition: 0.5s;
 }
 .search a i:hover {
-  color: black;
+  color: greenyellow;
 }
 .banner {
   background: url(../images/bg-img.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .overly {
   background: rgba(0, 0, 0, 0.705);
-  padding: 500px;
+  padding: 300px;
 }
 .content h1 {
-  font-size: 35px;
-  margin: 0 auto;
-  
+  font-size: 45px;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.content h5 {
+  font-size: 25px;
+  color: aliceblue;
+  margin-top: 25px;
+  text-align: center;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-family: "Source Sans 3", serif;
+  font-weight: 400;
 }
