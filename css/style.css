@@ -218,3 +218,36 @@ li {
   transition: 0.7s;
   background: teal;
 }
+.about {
+  margin: 30px auto;
+}
+.headerwhite {
+  text-align: center;
+}
+.headerwhite h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+}
+.headerwhite h4 {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 5px 200px;
+  font-size: 25px;
+}
+.divstack {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imga {
+  width: 50%;
+  /* display: flex; */
+}
+.texa {
+  width: 50%;
+  /* display: flex; */
+}
