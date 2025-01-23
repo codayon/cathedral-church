@@ -249,45 +249,87 @@ li {
   align-items: center;
 }
 .partin {
-left: 0;
-top: 0;
-text-align: left;
-/* margin: 15px 30px; */
+  left: 0;
+  top: 0;
+  text-align: left;
 }
 .partit {
-  /* align-items: rigth; */
   text-align: right;
   right: 0;
   top: 0;
 }
 .imga img {
   width: 660px;
-  /* display: flex; */
-}
-.texa {
-  /* width: 50%; */
-  /* margin: 50px 30px 50px 0px; */
-  /* display: flex; */
-  /* margin: 15px 40px; */
 }
 .box {
   position: absolute;
-  /* text-align: center; */
-  /* align-items: center; */
   height: 200px;
   width: 200px;
   background: rgb(255, 0, 0);
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   border: 20px solid white;
 }
 .box h1 {
-  /* align-items: center; */
   display: inline-block;
   color: aliceblue;
   font-size: 100px;
   margin-top: 50%;
   margin-left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+.hod h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 850;
+  font-style: normal;
+  font-size: 30px;
+}
+.hod h4 {
+  text-align: center;
+  text-transform: lowercase;
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+.dov {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.overlysd {
+  background: rgba(0, 0, 0, 0.63);
+  padding: 10px 10px 10px 10px;
+  margin: 0 0px;
+}
+.overlysd h4 {
+  color: blanchedalmond;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+.ksad {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.supporters h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 850;
+  font-style: normal;
+  font-size: 30px;
+  margin: 40px auto;
+  color: green;
 }
